@@ -13,15 +13,10 @@ int main() {
 char *my_strcat(char *s, char *t) {
     char *cat;
     int i = 0;
-    for (; *s != '\0';) {
+    while (*s != '\0')
         cat[i++] = *s++;
-    }
-
-    for (; *t != '\0';) {
+    while (*t != '\0')
         cat[i++] = *t++;
-    }
-
     cat[i] = '\0';
-
     return cat;
 }
