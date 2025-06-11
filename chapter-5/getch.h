@@ -1,5 +1,6 @@
 #ifndef GETCH
 #define GETCH
+#include <stdio.h>
 
 #define BUF_SIZE 100
 int buf[BUF_SIZE];
